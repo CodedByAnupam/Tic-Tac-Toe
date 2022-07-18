@@ -34,16 +34,6 @@ def check_tie(board):
     print()
 
     quit()
-    # play_again()
-
-
-# def play_again():
-#     again = input("Do you want to play again? Y/N ")
-#     if again.lower == "y":
-#         return True
-#     else:
-#         return False
-
 
 def check_column(j):
     x = 0
@@ -126,3 +116,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # play_again()
+
+
+# def play_again():
+#     again = input("Do you want to play again? Y/N ")
+#     if again.lower == "y":
+#         return True
+#     else:
+#         return False
